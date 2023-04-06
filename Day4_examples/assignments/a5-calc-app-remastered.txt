@@ -1,0 +1,23 @@
+ASSIGNMENT 5 - CALCULATOR APP REMASTERED
+
+*** This is a text file. You NEED to complete this assignment in a python file (.py as the file extension).
+
+
+Take your completed Calculator App from assignment 3, and re-work it to use functions that are in seperate files. 
+
+Create a function the prints the menu and returns the selected option. 
+This function should be called in place of printing the menu in the main program.
+
+Next, create function(s) that prompt the user for their numbers that they would like to perform the operation on. 
+Make sure the function(s) only return valid numbers!
+
+Additionally, create a function that takes in two numbers and the user's selected option. 
+This should then perform the selected operation and return the result.
+
+Every function should be in its own file, and the main program should import each of the other files. 
+
+
+As always, be sure to use proper variable and function names while writing this program.
+
+
+I advise you create a new folder to put all these files in. You may turn in a .zip folder with all these python files if you'd like.

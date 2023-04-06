@@ -1,0 +1,22 @@
+ASSIGNMENT 4 - SUPERHERO TEAM UP
+
+*** This is a text file. You NEED to complete this assignment in a python file (.py as the file extension).
+
+
+Write a python program that asks the user to build a superhero team. 
+
+First, you should ask the user how many superheroes they want to put on their team. 
+Then, you will prompt the user for information about that hero. 
+
+The information you need to ask for is:
+    Superhero name
+    Primary super power
+    Strength level
+
+For each super hero, you need to store the information into a DICTIONARY where the above attributes are the keys and the and info input by the user are the values.
+
+Then, you need to add the superhero (with all their info inside a dictionary) into a LIST.
+
+Lastly, you need to loop through the list and print out each superheroes information in properly formatted string. 
+
+As always, be sure to use proper variable while writing this program.
