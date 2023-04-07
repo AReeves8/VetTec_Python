@@ -1,0 +1,39 @@
+creating virtual environment
+
+the following command will create a virtual python environment called ".venv" 
+python -m venv .venv
+OR
+python3 -m venv .venv
+
+IF you need to install the venv command:
+sudo apt install python3-venv
+
+you can call it whatever you want, but .venv is most commonly used
+
+
+
+once you created the virtual environment, you need to activate it with one of the following commands:
+
+WINDOWS:    .\.venv\Scripts\activate
+LINUX:      source .venv/bin/activate
+
+
+now if you run "pip freeze" nothing shows up since our enviornment is clean
+
+
+we can then install new libraries using pip
+pip install boto3
+
+
+now we can do pip freeze again, but export it to a file - requirements.txt
+pip freeze > requirements.txt
+
+
+the point is that now, someone else can run a pip install with your requirements file:
+pip install -r requirements.txt 
+
+...and install everything that was in your environment. 
+that makes it so everyone working on something can be sure to have the same environment
+
+
+to leave your virtual environment just run the "deactivate" command

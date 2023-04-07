@@ -1,0 +1,23 @@
+ASSIGNMENT 6 - SAVE THE SUPERHEROES
+
+*** This is a text file. You NEED to complete this assignment in a python file (.py as the file extension).
+
+
+For this assignment, you will be modifying the Superhero Team Builder that was completed in Assignment 4.
+
+The first thing you will need to do is ask the user if they want to start a create a new team, 
+or add to an existing one. This can be done with a menu that has two options. 
+
+If the user wants to start from scratch, you will then need to ask them how many heroes they want to add
+and get the information for those heroes, just like in Assignment 4. 
+INSTEAD of printing the heroes information back out to the user, you should save them to a JSON file
+and tell the user the name of the file where their heroes can be found.
+
+If the user wants to add on to an existing team, you need to ask the user for the name of a JSON file. 
+You will then read in the data from the file the user gave you, and store it into your list. 
+Then, you can ask them for the number of superheroes they want to add to the team, and get their
+info, just like in Assignment 4. Then, you will save the new heroes to the user's existing 
+JSON file (the one the user told you to use). Of course, let the user know that their new heroes have been 
+saved to the file they provided. 
+
+As always, make sure you use proper variable and function naming conventions and comment your code!
